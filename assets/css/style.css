@@ -1,0 +1,29 @@
+circle {
+    fill: #fff;
+    stroke-width: 1.5;
+    stroke-miterlimit: 10;
+}
+
+line {
+    stroke-width: 1.5;
+    marker-end: url(#arrow);
+}
+
+text {
+    stroke-width: .5;
+    stroke: grey;
+    text-anchor: middle;
+}
+
+.curve {
+    fill: transparent;
+    marker-end: url(#arrow);
+}
+
+input {
+    margin: 5px;
+}
+
+.vertex-input {
+    width: 20px;
+}
